@@ -1,0 +1,24 @@
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.container h1 {
+  position: absolute;
+  top: 5%;
+  right: 55%;
+  width: 30%;
+
+  color: var(--branco);
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 4vw;
+}
+
+.container span {
+  color: var(--azul);
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: -7px;
+}
