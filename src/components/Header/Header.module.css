@@ -1,10 +1,13 @@
+.header {
+  width: 100%;
+}
+
 .cabecalho {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-xl);
+  gap: 5vw;
   background-color: var(--branco);
-  padding: var(--padding-s) 0;
 }
 
 .menuitem {
@@ -13,8 +16,14 @@
 
 .icones {
   display: flex;
-  gap: var(--gap-xl);
+  gap: 5vw;
   font-family: var(--fonte-texto);
-  font-size: var(--font-size-m);
+  font-size: 2vw;
   font-weight: 400;
+}
+
+@media (max-width: 986px) {
+  .cabecalho {
+    gap: 2px;
+  }
 }

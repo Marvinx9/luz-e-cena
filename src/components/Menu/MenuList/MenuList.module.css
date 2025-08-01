@@ -1,8 +1,8 @@
 .navegacao {
   display: flex;
-  gap: var(--gap-xl);
+  gap: 5vw;
   font-family: var(--fonte-texto);
-  font-size: var(--font-size-m);
+  font-size: 1.6vw;
   font-weight: 400;
 }
 
@@ -17,4 +17,11 @@
 
 .navegacao li a {
   display: block;
+}
+
+@media (max-width: 986px) {
+  .navegacao {
+    gap: 3vw;
+    font-size: 2vw;
+  }
 }

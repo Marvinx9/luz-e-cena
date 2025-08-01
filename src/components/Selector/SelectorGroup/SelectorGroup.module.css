@@ -12,15 +12,22 @@
 }
 
 .selector {
-  width: 312px;
-  height: 51px;
-  padding: 16px;
+  width: 20vw;
+  height: 5vw;
+  padding: 1vw;
   appearance: none;
   border: none;
   border-radius: 8px;
   outline: none;
   cursor: pointer;
   font-family: var(--fonte-texto);
+  font-size: 1.5vw;
   background-color: var(--cinza-claro);
   color: var(--preto);
+}
+
+@media (max-width: 986px) {
+  .icone {
+    display: none;
+  }
 }

@@ -1,3 +1,4 @@
+import styles from "./Header.module.css";
 import Logo from "../Logo";
 import HeaderActions from "./components/HeaderActions";
 import HeaderFormFilters from "./components/HeaderFormFilters";
@@ -7,7 +8,7 @@ import HeaderListItem from "./components/HeaderListItem";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <HeaderList>
         <HeaderListItem>
           <Logo src="/logo.png" />
