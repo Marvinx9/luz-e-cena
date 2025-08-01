@@ -1,0 +1,8 @@
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--preto);
+  font-family: var(--fonte-texto);
+  font-size: 2vw;
+}

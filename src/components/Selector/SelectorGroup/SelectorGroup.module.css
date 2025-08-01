@@ -30,4 +30,8 @@
   .icone {
     display: none;
   }
+
+  .selector {
+    margin: 5px;
+  }
 }
