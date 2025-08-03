@@ -23,7 +23,7 @@
   color: #333;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 986px) {
   .default {
     padding: 0.5rem;
   }
