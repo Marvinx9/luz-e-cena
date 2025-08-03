@@ -1,0 +1,24 @@
+.botao {
+  padding: var(--padding-s);
+  font-family: var(--fonte-texto);
+  font-size: 0.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+}
+
+.default {
+  color: var(--branco);
+  background-color: var(--cinza-escuro);
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.icon {
+  background: none;
+  font-size: 3vw;
+  border: none;
+  padding: 0.5rem;
+  color: #333;
+}

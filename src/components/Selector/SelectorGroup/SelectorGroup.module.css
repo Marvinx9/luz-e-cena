@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.icone {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: var(--font-size-l);
+}
+
+.selector {
+  width: 20vw;
+  height: 5vw;
+  padding: 1vw;
+  appearance: none;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--fonte-texto);
+  font-size: 1.5vw;
+  background-color: var(--cinza-claro);
+  color: var(--preto);
+}
+
+@media (max-width: 986px) {
+  .icone {
+    display: none;
+  }
+
+  .selector {
+    margin: 5px;
+  }
+}

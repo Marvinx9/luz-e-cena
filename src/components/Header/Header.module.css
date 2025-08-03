@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  background-color: var(--branco);
+  padding: 0px;
+}
+
+.menuitem {
+  list-style: none;
+  display: flex;
+}
+
+.icones {
+  display: flex;
+  gap: 5vw;
+  font-family: var(--fonte-texto);
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+@media (max-width: 986px) {
+  .cabecalho {
+    gap: 0vw;
+    justify-content: space-between;
+    margin: 1vw;
+  }
+}
