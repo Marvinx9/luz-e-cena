@@ -11,7 +11,7 @@
 .default {
   color: var(--branco);
   background-color: var(--cinza-escuro);
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
 }
 
