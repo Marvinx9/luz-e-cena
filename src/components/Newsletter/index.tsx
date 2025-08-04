@@ -12,7 +12,7 @@ const Newsletter = () => {
           <InputText placeholder="Digite o seu melhor email" />
         </Fieldset>
         <Button variant="default" type="submit">
-          Inscreva-se
+          Salvar
         </Button>
       </form>
     </section>
