@@ -1,7 +1,7 @@
 .botao {
   padding: var(--padding-s);
   font-family: var(--fonte-texto);
-  font-size: 0.5em;
+  font-size: 0.8em;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -11,7 +11,7 @@
 .default {
   color: var(--branco);
   background-color: var(--cinza-escuro);
-  padding: 2rem;
+  padding: 1.1rem;
   text-align: center;
 }
 
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 986px) {
-  .default {
-    padding: 0.5rem;
+  .botao {
+    font-size: 0.1;
   }
 }

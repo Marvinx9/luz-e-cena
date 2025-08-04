@@ -9,18 +9,16 @@ function App() {
     <>
       <Header />
       <Banner
-        src="./banner-desktop.png"
+        src_desktop="./banner-desktop.png"
+        src_mobile="./banner-mobile.png"
         alt="banner"
-        text1="Onde a realidade "
-        text2="encontra a fantasia!"
       />
       <MovieSection />
       <Banner
-        src="./combo.png"
+        src_desktop="./combo-desktop.png"
+        src_mobile="./combo-mobile.png"
         alt="Combo"
         variant="combo"
-        text1="Combo "
-        text2="Dragon's Ascent"
       />
       <Newsletter />
       <Footer />
