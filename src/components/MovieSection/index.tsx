@@ -13,7 +13,7 @@ const MovieSection = () => {
     useFilterMovies(movies);
 
   return (
-    <main>
+    <main className={styles.main}>
       <section className={styles.container}>
         <Fieldset variant="secondary">
           <InputText

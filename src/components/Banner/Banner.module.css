@@ -1,17 +1,5 @@
 .container {
-  display: inline-block;
-  position: relative;
-}
-
-.container h1 {
-  position: absolute;
-  top: 5%;
-  right: 55%;
-  width: 30%;
-
-  color: var(--branco);
-  font-family: "Dela Gothic One", sans-serif;
-  font-size: 4vw;
+  margin: 0;
 }
 
 .container span {
@@ -23,6 +11,30 @@
   margin-bottom: -7px;
 }
 
-.combo h1 {
-  top: -5%;
+.default {
+  width: 100vw;
+  height: 100vw;
+  margin-bottom: -60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/banner-desktop.png");
+}
+
+.combo {
+  width: 100vw;
+  height: 100vw;
+  margin-bottom: -60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/combo-desktop.png");
+}
+
+@media (max-width: 720px) {
+  .default {
+    background-image: url("../../../public/banner-mobile.png");
+  }
+
+  .combo {
+    background-image: url("../../../public/combo-mobile.png");
+  }
 }

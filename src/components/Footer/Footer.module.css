@@ -2,23 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  width: 100vw;
   gap: 0.5rem;
   background-color: var(--preto);
 }
 
 .rodape_informacoes {
   display: flex;
-  align-items: start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
   justify-content: space-around;
   gap: 2rem;
   margin: 0.5rem;
-  height: 7rem;
   color: var(--cinza-claro);
-}
-
-.logo {
-  width: 30%;
 }
 
 .funcionamento,
@@ -26,6 +25,7 @@
 .redes {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
   color: var(--cinza-claro);
 }
@@ -71,5 +71,21 @@
   text-align: center;
   font-family: var(--fonte-texto);
   font-weight: 400;
-  font-size: 0.5em;
+  font-size: 0.7em;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  max-width: 200px;
+}
+
+@media (max-width: 720px) {
+  .logo {
+    width: 40%;
+  }
 }
