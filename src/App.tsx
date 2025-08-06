@@ -8,18 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <Banner
-        src_desktop="./banner-desktop.png"
-        src_mobile="./banner-mobile.png"
-        alt="banner"
-      />
+      <Banner />
       <MovieSection />
-      <Banner
-        src_desktop="./combo-desktop.png"
-        src_mobile="./combo-mobile.png"
-        alt="Combo"
-        variant="combo"
-      />
+      <Banner variant="combo" />
       <Newsletter />
       <Footer />
     </>

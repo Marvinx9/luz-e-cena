@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: none;
+}
+
+.menu {
+  background-color: hsl(0, 0%, 0%, 0.6);
+  position: absolute;
+  bottom: -7.75rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid var(--cinza-claro);
+}
+
+.menu ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .container {
+    display: block;
+  }
+}

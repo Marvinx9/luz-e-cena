@@ -1,0 +1,9 @@
+.option {
+  font-size: 50%;
+}
+
+@media (max-width: 750px) {
+  .option {
+    font-size: 0.5rem;
+  }
+}

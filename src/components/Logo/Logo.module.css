@@ -1,5 +1,9 @@
-@media (max-width: 986px) {
+.logo {
+  width: 80%;
+}
+
+@media (max-width: 720px) {
   .logo {
-    display: none;
+    width: 50%;
   }
 }

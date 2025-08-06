@@ -6,8 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
-  padding: 0px;
+  margin: 2vh 0 0 0;
+  margin-top: 0px;
+  padding: 0;
 }
 
 .primary {
@@ -24,4 +25,7 @@
   color: var(--preto);
   font-family: var(--fonte-texto);
   font-size: var(--font-size-m);
+}
+
+@media (max-width: 750px) {
 }

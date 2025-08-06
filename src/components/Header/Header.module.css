@@ -11,6 +11,11 @@
   padding: 0px;
 }
 
+.hamburger_icon {
+  display: flex;
+  align-items: center;
+}
+
 .menuitem {
   list-style: none;
   display: flex;
@@ -29,5 +34,12 @@
     gap: 0vw;
     justify-content: space-between;
     margin: 1vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .hamburger_icon {
+    flex-direction: row-reverse;
+    gap: 1rem;
   }
 }

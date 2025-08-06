@@ -4,12 +4,14 @@
   background-color: transparent;
   color: var(--preto);
   font-family: var(--fonte-texto);
-  font-size: 1.5em;
   width: 100%;
+  padding: 0 0 0 2%;
 }
 
 @media (max-width: 720px) {
-  .input {
-    font-size: 1em;
+  .input::placeholder {
+    font-size: 0.8em;
+    justify-content: center;
+    padding: 0 0 0 5%;
   }
 }
