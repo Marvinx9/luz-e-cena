@@ -16,15 +16,18 @@
 
 .icon {
   background: none;
-  font-size: 3vw;
+  font-size: 2.5vw;
   border: none;
   padding: 0.5rem;
   color: #333;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 750px) {
   .default {
     padding: 0.4rem;
     font-size: 0.6em;
+  }
+  .icon {
+    font-size: 3vw;
   }
 }

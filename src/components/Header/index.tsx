@@ -10,12 +10,14 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <HeaderList>
-        <HeaderListItem>
-          <Logo src="/logo.png" />
-        </HeaderListItem>
-        <HeaderListItem>
-          <HeaderLinks />
-        </HeaderListItem>
+        <div className={styles.hamburger_icon}>
+          <HeaderListItem>
+            <Logo src="/logo.png" />
+          </HeaderListItem>
+          <HeaderListItem>
+            <HeaderLinks />
+          </HeaderListItem>
+        </div>
         <HeaderListItem>
           <HeaderFormFilters />
         </HeaderListItem>

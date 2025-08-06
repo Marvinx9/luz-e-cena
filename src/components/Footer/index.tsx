@@ -11,9 +11,9 @@ const Footer = () => {
           <FooterInfo />
         </div>
       </footer>
-      <h4 className={styles.footer}>
-        Desenvolvido por Marvin. Projeto fictício sem fins comerciais.
-      </h4>
+      <div className={styles.footer}>
+        <h4>Desenvolvido por Marvin. Projeto fictício sem fins comerciais.</h4>
+      </div>
     </>
   );
 };

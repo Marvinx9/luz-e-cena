@@ -5,6 +5,7 @@
   color: var(--preto);
   font-family: var(--fonte-texto);
   width: 100%;
+  padding: 0 0 0 2%;
 }
 
 @media (max-width: 720px) {

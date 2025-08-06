@@ -17,24 +17,24 @@
   margin-bottom: -60%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../../../public/banner-desktop.png");
+  background-image: url("/banner-desktop.png");
 }
 
 .combo {
   width: 100vw;
-  height: 100vw;
-  margin-bottom: -60%;
+  height: 21vw;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../../../public/combo-desktop.png");
+  background-image: url("/combo-desktop.png");
 }
 
 @media (max-width: 720px) {
   .default {
-    background-image: url("../../../public/banner-mobile.png");
+    background-image: url("/banner-mobile.png");
   }
 
   .combo {
-    background-image: url("../../../public/combo-mobile.png");
+    background-image: url("/combo-mobile.png");
+    height: 40vw;
   }
 }

@@ -1,3 +1,5 @@
+import styles from "./SelectorOption.module.css";
+
 interface SelectorOption extends React.OptionHTMLAttributes<HTMLOptionElement> {
   label: string;
   value: string;
@@ -5,7 +7,7 @@ interface SelectorOption extends React.OptionHTMLAttributes<HTMLOptionElement> {
 
 const SelectorOption = ({ label, value, ...rest }: SelectorOption) => {
   return (
-    <option value={value} {...rest}>
+    <option className={styles.option} value={value} {...rest}>
       {label}
     </option>
   );

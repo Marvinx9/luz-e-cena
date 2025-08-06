@@ -1,4 +1,4 @@
-import { FaLocationDot } from "react-icons/fa6";
+import { FaAngleDown } from "react-icons/fa6";
 import SelectorGroup from "../../Selector/SelectorGroup";
 import SelectorOption from "../../Selector/SelectorOption";
 
@@ -13,7 +13,7 @@ const cidades = [
 const HeaderFormFilters = () => {
   return (
     <form>
-      <SelectorGroup id="cidade" icon={<FaLocationDot />}>
+      <SelectorGroup id="cidade" icon={<FaAngleDown />}>
         <SelectorOption value="" label="Escolha sua cidade..." />
         {cidades.map((cidade) => {
           return (
